@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Xcode 7.0">
+    <entity name="AllComposition" representedClassName="AllComposition" syncable="YES">
+        <attribute name="cas_num" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="other_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="safety" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="summary" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="used" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Composition" representedClassName="Composition" syncable="YES">
+        <attribute name="compositionId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="safety" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sort" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="used" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="product" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Product" inverseName="composition" inverseEntity="Product" syncable="YES"/>
+    </entity>
+    <entity name="Product" representedClassName="Product" syncable="YES">
+        <attribute name="address_china" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="approval" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="brand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="capacity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cateName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="company" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doyenComment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="efficacy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="other_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="composition" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Composition" inverseName="product" inverseEntity="Composition" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AllComposition" positionX="-9" positionY="3" width="128" height="148"/>
+        <element name="Composition" positionX="-236" positionY="63" width="128" height="133"/>
+        <element name="Product" positionX="-432" positionY="-18" width="128" height="238"/>
+    </elements>
+</model>

@@ -1,0 +1,14 @@
+//
+//  Crystal.pch
+//  PullDataDemo
+//
+//  Created by Crystal on 16/8/31.
+//  Copyright © 2016年 crystal. All rights reserved.
+//
+
+#ifndef Crystal_pch
+#define Crystal_pch
+
+#define NSLog(FORMAT, ...) fprintf(stderr,"%s\n",[[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+
+#endif /* Crystal_pch */
