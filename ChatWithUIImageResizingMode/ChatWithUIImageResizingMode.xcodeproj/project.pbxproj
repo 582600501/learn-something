@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18731EE31EAF48C400AECF00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18731EE21EAF48C400AECF00 /* main.m */; };
+		18731EE61EAF48C400AECF00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18731EE51EAF48C400AECF00 /* AppDelegate.m */; };
+		18731EE91EAF48C400AECF00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18731EE81EAF48C400AECF00 /* ViewController.m */; };
+		18731EEC1EAF48C400AECF00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18731EEA1EAF48C400AECF00 /* Main.storyboard */; };
+		18731EEE1EAF48C500AECF00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18731EED1EAF48C500AECF00 /* Assets.xcassets */; };
+		18731EF11EAF48C500AECF00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18731EEF1EAF48C500AECF00 /* LaunchScreen.storyboard */; };
+		18731EFC1EAF48C500AECF00 /* ChatWithUIImageResizingModeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18731EFB1EAF48C500AECF00 /* ChatWithUIImageResizingModeTests.m */; };
+		18731F071EAF48C500AECF00 /* ChatWithUIImageResizingModeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18731F061EAF48C500AECF00 /* ChatWithUIImageResizingModeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18731EF81EAF48C500AECF00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18731ED61EAF48C400AECF00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18731EDD1EAF48C400AECF00;
+			remoteInfo = ChatWithUIImageResizingMode;
+		};
+		18731F031EAF48C500AECF00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18731ED61EAF48C400AECF00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18731EDD1EAF48C400AECF00;
+			remoteInfo = ChatWithUIImageResizingMode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18731EDE1EAF48C400AECF00 /* ChatWithUIImageResizingMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatWithUIImageResizingMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18731EE21EAF48C400AECF00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18731EE41EAF48C400AECF00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18731EE51EAF48C400AECF00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18731EE71EAF48C400AECF00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18731EE81EAF48C400AECF00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18731EEB1EAF48C400AECF00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18731EED1EAF48C500AECF00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18731EF01EAF48C500AECF00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18731EF21EAF48C500AECF00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18731EF71EAF48C500AECF00 /* ChatWithUIImageResizingModeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatWithUIImageResizingModeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18731EFB1EAF48C500AECF00 /* ChatWithUIImageResizingModeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatWithUIImageResizingModeTests.m; sourceTree = "<group>"; };
+		18731EFD1EAF48C500AECF00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18731F021EAF48C500AECF00 /* ChatWithUIImageResizingModeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatWithUIImageResizingModeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18731F061EAF48C500AECF00 /* ChatWithUIImageResizingModeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatWithUIImageResizingModeUITests.m; sourceTree = "<group>"; };
+		18731F081EAF48C500AECF00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18731EDB1EAF48C400AECF00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18731EF41EAF48C500AECF00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18731EFF1EAF48C500AECF00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18731ED51EAF48C400AECF00 = {
+			isa = PBXGroup;
+			children = (
+				18731EE01EAF48C400AECF00 /* ChatWithUIImageResizingMode */,
+				18731EFA1EAF48C500AECF00 /* ChatWithUIImageResizingModeTests */,
+				18731F051EAF48C500AECF00 /* ChatWithUIImageResizingModeUITests */,
+				18731EDF1EAF48C400AECF00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18731EDF1EAF48C400AECF00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18731EDE1EAF48C400AECF00 /* ChatWithUIImageResizingMode.app */,
+				18731EF71EAF48C500AECF00 /* ChatWithUIImageResizingModeTests.xctest */,
+				18731F021EAF48C500AECF00 /* ChatWithUIImageResizingModeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18731EE01EAF48C400AECF00 /* ChatWithUIImageResizingMode */ = {
+			isa = PBXGroup;
+			children = (
+				18731EE41EAF48C400AECF00 /* AppDelegate.h */,
+				18731EE51EAF48C400AECF00 /* AppDelegate.m */,
+				18731EE71EAF48C400AECF00 /* ViewController.h */,
+				18731EE81EAF48C400AECF00 /* ViewController.m */,
+				18731EEA1EAF48C400AECF00 /* Main.storyboard */,
+				18731EED1EAF48C500AECF00 /* Assets.xcassets */,
+				18731EEF1EAF48C500AECF00 /* LaunchScreen.storyboard */,
+				18731EF21EAF48C500AECF00 /* Info.plist */,
+				18731EE11EAF48C400AECF00 /* Supporting Files */,
+			);
+			path = ChatWithUIImageResizingMode;
+			sourceTree = "<group>";
+		};
+		18731EE11EAF48C400AECF00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18731EE21EAF48C400AECF00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18731EFA1EAF48C500AECF00 /* ChatWithUIImageResizingModeTests */ = {
+			isa = PBXGroup;
+			children = (
+				18731EFB1EAF48C500AECF00 /* ChatWithUIImageResizingModeTests.m */,
+				18731EFD1EAF48C500AECF00 /* Info.plist */,
+			);
+			path = ChatWithUIImageResizingModeTests;
+			sourceTree = "<group>";
+		};
+		18731F051EAF48C500AECF00 /* ChatWithUIImageResizingModeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18731F061EAF48C500AECF00 /* ChatWithUIImageResizingModeUITests.m */,
+				18731F081EAF48C500AECF00 /* Info.plist */,
+			);
+			path = ChatWithUIImageResizingModeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18731EDD1EAF48C400AECF00 /* ChatWithUIImageResizingMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18731F0B1EAF48C500AECF00 /* Build configuration list for PBXNativeTarget "ChatWithUIImageResizingMode" */;
+			buildPhases = (
+				18731EDA1EAF48C400AECF00 /* Sources */,
+				18731EDB1EAF48C400AECF00 /* Frameworks */,
+				18731EDC1EAF48C400AECF00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatWithUIImageResizingMode;
+			productName = ChatWithUIImageResizingMode;
+			productReference = 18731EDE1EAF48C400AECF00 /* ChatWithUIImageResizingMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18731EF61EAF48C500AECF00 /* ChatWithUIImageResizingModeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18731F0E1EAF48C500AECF00 /* Build configuration list for PBXNativeTarget "ChatWithUIImageResizingModeTests" */;
+			buildPhases = (
+				18731EF31EAF48C500AECF00 /* Sources */,
+				18731EF41EAF48C500AECF00 /* Frameworks */,
+				18731EF51EAF48C500AECF00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18731EF91EAF48C500AECF00 /* PBXTargetDependency */,
+			);
+			name = ChatWithUIImageResizingModeTests;
+			productName = ChatWithUIImageResizingModeTests;
+			productReference = 18731EF71EAF48C500AECF00 /* ChatWithUIImageResizingModeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18731F011EAF48C500AECF00 /* ChatWithUIImageResizingModeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18731F111EAF48C500AECF00 /* Build configuration list for PBXNativeTarget "ChatWithUIImageResizingModeUITests" */;
+			buildPhases = (
+				18731EFE1EAF48C500AECF00 /* Sources */,
+				18731EFF1EAF48C500AECF00 /* Frameworks */,
+				18731F001EAF48C500AECF00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18731F041EAF48C500AECF00 /* PBXTargetDependency */,
+			);
+			name = ChatWithUIImageResizingModeUITests;
+			productName = ChatWithUIImageResizingModeUITests;
+			productReference = 18731F021EAF48C500AECF00 /* ChatWithUIImageResizingModeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18731ED61EAF48C400AECF00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ss;
+				TargetAttributes = {
+					18731EDD1EAF48C400AECF00 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7PP5ENXJSS;
+						ProvisioningStyle = Automatic;
+					};
+					18731EF61EAF48C500AECF00 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18731EDD1EAF48C400AECF00;
+					};
+					18731F011EAF48C500AECF00 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18731EDD1EAF48C400AECF00;
+					};
+				};
+			};
+			buildConfigurationList = 18731ED91EAF48C400AECF00 /* Build configuration list for PBXProject "ChatWithUIImageResizingMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18731ED51EAF48C400AECF00;
+			productRefGroup = 18731EDF1EAF48C400AECF00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18731EDD1EAF48C400AECF00 /* ChatWithUIImageResizingMode */,
+				18731EF61EAF48C500AECF00 /* ChatWithUIImageResizingModeTests */,
+				18731F011EAF48C500AECF00 /* ChatWithUIImageResizingModeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18731EDC1EAF48C400AECF00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18731EF11EAF48C500AECF00 /* LaunchScreen.storyboard in Resources */,
+				18731EEE1EAF48C500AECF00 /* Assets.xcassets in Resources */,
+				18731EEC1EAF48C400AECF00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18731EF51EAF48C500AECF00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18731F001EAF48C500AECF00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18731EDA1EAF48C400AECF00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18731EE91EAF48C400AECF00 /* ViewController.m in Sources */,
+				18731EE61EAF48C400AECF00 /* AppDelegate.m in Sources */,
+				18731EE31EAF48C400AECF00 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18731EF31EAF48C500AECF00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18731EFC1EAF48C500AECF00 /* ChatWithUIImageResizingModeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18731EFE1EAF48C500AECF00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18731F071EAF48C500AECF00 /* ChatWithUIImageResizingModeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18731EF91EAF48C500AECF00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18731EDD1EAF48C400AECF00 /* ChatWithUIImageResizingMode */;
+			targetProxy = 18731EF81EAF48C500AECF00 /* PBXContainerItemProxy */;
+		};
+		18731F041EAF48C500AECF00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18731EDD1EAF48C400AECF00 /* ChatWithUIImageResizingMode */;
+			targetProxy = 18731F031EAF48C500AECF00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18731EEA1EAF48C400AECF00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18731EEB1EAF48C400AECF00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18731EEF1EAF48C500AECF00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18731EF01EAF48C500AECF00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18731F091EAF48C500AECF00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18731F0A1EAF48C500AECF00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18731F0C1EAF48C500AECF00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7PP5ENXJSS;
+				INFOPLIST_FILE = ChatWithUIImageResizingMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dckj.ChatWithUIImageResizingMode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18731F0D1EAF48C500AECF00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7PP5ENXJSS;
+				INFOPLIST_FILE = ChatWithUIImageResizingMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dckj.ChatWithUIImageResizingMode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18731F0F1EAF48C500AECF00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChatWithUIImageResizingModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dckj.ChatWithUIImageResizingModeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatWithUIImageResizingMode.app/ChatWithUIImageResizingMode";
+			};
+			name = Debug;
+		};
+		18731F101EAF48C500AECF00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChatWithUIImageResizingModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dckj.ChatWithUIImageResizingModeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatWithUIImageResizingMode.app/ChatWithUIImageResizingMode";
+			};
+			name = Release;
+		};
+		18731F121EAF48C500AECF00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChatWithUIImageResizingModeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dckj.ChatWithUIImageResizingModeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChatWithUIImageResizingMode;
+			};
+			name = Debug;
+		};
+		18731F131EAF48C500AECF00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChatWithUIImageResizingModeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dckj.ChatWithUIImageResizingModeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChatWithUIImageResizingMode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18731ED91EAF48C400AECF00 /* Build configuration list for PBXProject "ChatWithUIImageResizingMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18731F091EAF48C500AECF00 /* Debug */,
+				18731F0A1EAF48C500AECF00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18731F0B1EAF48C500AECF00 /* Build configuration list for PBXNativeTarget "ChatWithUIImageResizingMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18731F0C1EAF48C500AECF00 /* Debug */,
+				18731F0D1EAF48C500AECF00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18731F0E1EAF48C500AECF00 /* Build configuration list for PBXNativeTarget "ChatWithUIImageResizingModeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18731F0F1EAF48C500AECF00 /* Debug */,
+				18731F101EAF48C500AECF00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18731F111EAF48C500AECF00 /* Build configuration list for PBXNativeTarget "ChatWithUIImageResizingModeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18731F121EAF48C500AECF00 /* Debug */,
+				18731F131EAF48C500AECF00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18731ED61EAF48C400AECF00 /* Project object */;
+}
